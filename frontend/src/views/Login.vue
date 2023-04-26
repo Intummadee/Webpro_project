@@ -11,7 +11,6 @@
 
         <div class="text-center mt-5">
           <router-link :to="{name : 'Appointment', params: { userId : 1}}">
-          <!-- <router-link to="/Appointment/1"> -->
             <button type="button" class="btn btn-outline-primary" value="submit" onclick="login()">Login</button>
           </router-link>
         </div>
