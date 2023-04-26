@@ -1,8 +1,9 @@
 <template>
   <div class="container">
-    <form action="" id="form">
+    <form action="" method="POST" id="form">
       <div class="form-control p-5 " style="background-color: #fefeff;color: #494D36">
         <h2>Log in</h2>
+        
         <label for="email" class="form-label">Email:</label>
         <input type="text" id="email" placeholder="Enter email">
 
@@ -28,4 +29,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>
