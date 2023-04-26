@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script src="https://kit.fontawesome.com/466f7f0339.js" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Athiti&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header class="d-flex flex-wrap justify-content-center px-3">
+      <a href="/" class=" navbar-brand d-flex align-items-center mb-3 md-0 me-md-auto text-dark text-decoration-none">
+        <img src="https://media.discordapp.net/attachments/1079395193410813992/1080070246171430922/Beauty_clinic3.png"
+          width="60">
+        <span class=" name mt-2 fs-3">Beauty clinic</span>
+      </a>
+
+      <ul class="nav nav-pills align-items-center">
+        <li class="nav-item booking rounded-pill"><a href="appointment.html" class="nav-link p-2"><span
+              class="bi bi-calendar">
+              Book
+              Appointment</span></a></li>
+        <li class="nav-item"><a href="home.html" class="nav-link p-2"><span class="bi bi-house-door"></span></a></li>
+        <li class="nav-item "><a href="#" class="nav-link p-2"><span class="bi bi-person-circle"> </span></a></li>
+      </ul>
+    </header>
+
+    
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+
+
+
+
+
+
